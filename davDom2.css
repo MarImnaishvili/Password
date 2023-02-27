@@ -1,0 +1,78 @@
+*{   
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.boklomi{
+    background-color: aqua;
+    text-align: center;
+}
+
+.lock-icon{
+   width: 20px;
+   color: #fff;
+   font-size: 25px; 
+}
+
+.fa{
+    padding-top: 8px;  
+}
+
+.input1{
+    display: inline-grid;
+    grid-template-columns: 1fr 40px;
+    border: 0 aqua;
+    font-size: 30px;
+}
+
+.inputtxt{
+    border: 0;
+    font-size: 20px;
+    outline: none;
+}
+
+.main{
+    display: inline-grid;
+    grid-template-columns: 40px 1fr;
+    color: aqua;
+    width: 300px;
+    border: 2px solid aqua;
+    border-radius: 2px;  
+}
+
+.eye-icon{
+    font-size: 25px;
+    color: aqua;
+    padding: 7px; 
+}
+.eye-open{
+visibility: visible;
+}
+
+.eye-open.slash-div-show{
+    visibility: hidden;
+}
+
+.iconEye{
+    position: relative;
+}
+
+.eye-close{
+    position: absolute;
+    top: 0px;  
+    visibility: hidden; 
+}
+
+.eye-close.slash-div-show{    
+    visibility: visible;
+}
